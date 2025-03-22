@@ -29,4 +29,4 @@
 	del a
 ```
 
-## Literals
+## Literals [Top](#Table of contents)
