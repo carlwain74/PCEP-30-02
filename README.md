@@ -150,9 +150,9 @@ A full list of reserved keywords can be found [here](https://docs.python.org/3/r
 
 ### Collections
 
-* [List](#Lists)
-* [Dictionary](#Dictionary)
-* [Tuples](#Tuples)
+* [List](#lists)
+* [Dictionary](#dictionary)
+* [Tuples](#tuples)
 * [Set](#sets)
 
 # Print(ing) [Top](#top)
@@ -226,7 +226,8 @@ Standalone or combined with arithmetric operators
 
 # Range Command [Top](#top)
 
-# Lists [Top](#top)
+[Back to Top](#top)
+# Lists
 
 * Creating
 * Accessing
