@@ -153,7 +153,7 @@ A full list of reserved keywords can be found [here](https://docs.python.org/3/r
 * [List](#Lists)
 * [Dictionary](#Dictionary)
 * [Tuples](#Tuples)
-* [Set](#Sets)
+* [Set](#sets)
 
 # Print(ing) [Top](#top)
 
