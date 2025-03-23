@@ -151,15 +151,28 @@ A full list of reserved keywords can be found [here](https://docs.python.org/3/r
 ### Collections
 
 * [List](#Lists)
-* Dictionary
-* Tuple
-* Set
+* [Dictionary](#Dictionary)
+* [Tuples](#Tuples)
+* [Set](#Sets)
 
 # Print(ing) [Top](#top)
+
+Built-in functionality to write strings to the console.
 
 ## Formatting
 
 # Immutability [Top](#top)
+
+Determines if an object type can be modified in-place. 
+
+Immutible types
+
+Mutible types
+- Strings
+- Numbers
+- Lists
+- Dictionary
+- Sets
 
 # Arithmetric Operations [Top](#top)
 
