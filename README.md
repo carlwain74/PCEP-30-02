@@ -226,8 +226,9 @@ Standalone or combined with arithmetric operators
 
 # Range Command [Top](#top)
 
-[Back to Top](#top)
+
 # Lists
+([Back to Top](#top))
 
 * Creating
 * Accessing
