@@ -1,11 +1,130 @@
 <a id="top"></a>
 
-# Table of contents
-- [PCEP-03-02](#pcep-introduction
-- [Python Intro](#introduction-to-python)
+- [PCEP Introduction](#pcep-introduction)
+- [Introduction to Python](#introduction-to-python)
 - [Keywords](#keywords)
-- [Variables](#vriables)
-  - [Literals](#literals)
+- [Variables](#variables)
+  * [Summary](#summary)
+  * [Literals](#literals)
+    + [Number](#number)
+      - [Integer](#integer)
+      - [Float](#float)
+      - [Complex](#complex)
+      - [Scientific](#scientific)
+    + [Strings](#strings)
+    + [Boolean](#boolean)
+    + [None](#none)
+    + [Collections](#collections)
+- [Print(ing)](#print-ing-)
+  * [Formatting](#formatting)
+- [Immutability](#immutability)
+- [Arithmetric Operations](#arithmetric-operations)
+- [Assignment Operators](#assignment-operators)
+- [Bitwise Operators](#bitwise-operators)
+- [Boolean Operators](#boolean-operators)
+- [Comparison Operators](#comparison-operators)
+- [Input](#input)
+  * [Type Conversion](#type-conversion)
+- [String Access](#string-access)
+  * [Slicing](#slicing)
+  * [Addition](#addition)
+  * [Multiplication](#multiplication)
+- [Operator Precedence](#operator-precedence)
+- [Flow Control / Loops](#flow-control---loops)
+  * [IF](#if)
+  * [FOR](#for)
+  * [WHILE](#while)
+  * [Break](#break)
+  * [Continue](#continue)
+  * [Pass](#pass)
+- [Range Command](#range-command)
+- [Lists](#lists)
+  * [Create](#create)
+  * [Access](#access)
+  * [Slicing](#slicing-1)
+  * [Traversing](#traversing)
+  * [Comprehension](#comprehension)
+  * [Math Operations](#math-operations)
+  * [Comparing](#comparing)
+  * [Membership Operators](#membership-operators)
+  * [Functions](#functions)
+    + [Append](#append)
+    + [Extend](#extend)
+    + [Insert](#insert)
+    + [Deletion](#deletion)
+      - [Del](#del)
+      - [Remove](#remove)
+      - [Pop](#pop)
+      - [Clear](#clear)
+    + [Length](#length)
+    + [Count](#count)
+    + [Index](#index)
+    + [Sort](#sort)
+    + [Reverse](#reverse)
+- [Tuples](#tuples)
+  * [Create](#create-1)
+  * [Access](#access-1)
+  * [Slicing](#slicing-2)
+  * [Conversion](#conversion)
+  * [Immutability](#immutability-1)
+  * [Packing/Unpacking](#packing-unpacking)
+- [Dictionary](#dictionary)
+  * [Creating](#creating)
+  * [Accessing](#accessing)
+  * [Updating](#updating)
+  * [Insertion](#insertion)
+  * [Deletion](#deletion-1)
+    + [Pop](#pop-1)
+    + [Pop Item](#pop-item)
+    + [Del](#del-1)
+    + [Clear](#clear-1)
+  * [Membership Operators](#membership-operators-1)
+  * [Functions](#functions-1)
+    + [Length](#length-1)
+    + [Get](#get)
+    + [Keys](#keys)
+    + [Values](#values)
+    + [Items](#items)
+- [Sets](#sets)
+  * [Create](#create-2)
+  * [Access](#access-2)
+  * [Modifying](#modifying)
+  * [Update](#update)
+  * [Copy](#copy)
+  * [Conversion](#conversion-1)
+  * [Deletion](#deletion-2)
+    + [Pop](#pop-2)
+    + [Remove](#remove-1)
+    + [Discard](#discard)
+    + [Clear](#clear-2)
+  * [Math Operations](#math-operations-1)
+    + [Union](#union)
+    + [Intersection](#intersection)
+    + [Difference](#difference)
+    + [Symmetric Distance](#symmetric-distance)
+  * [Membership Operators](#membership-operators-2)
+- [Escape Characters](#escape-characters)
+- [Strings](#strings-1)
+  * [Functions](#functions-2)
+    + [Length](#length-2)
+    + [Index](#index-1)
+    + [Count](#count-1)
+    + [Lower](#lower)
+    + [Upper](#upper)
+    + [Split](#split)
+- [Functions](#functions-3)
+  * [Arguments](#arguments)
+    + [Positional](#positional)
+    + [Keyword](#keyword)
+    + [Default](#default)
+    + [Variable Length](#variable-length)
+  * [Recursion](#recursion)
+  * [Return Statement](#return-statement)
+  * [Iterators](#iterators)
+  * [Global](#global)
+- [Exceptions](#exceptions)
+  * [Types](#types)
+  * [Handling](#handling)
 
 # PCEP Introduction
 
@@ -56,7 +175,7 @@ A full list of reserved keywords can be found [here](https://docs.python.org/3/r
 	del a
 ```
 
-## Literals [Top](#top)
+## Literals
 
 ```
      a = 3
@@ -156,13 +275,13 @@ A full list of reserved keywords can be found [here](https://docs.python.org/3/r
 * [Tuples](#tuples)
 * [Set](#sets)
 
-# Print(ing) [Top](#top)
+# Print(ing)
 
 Built-in functionality to write strings to the console.
 
 ## Formatting
 
-# Immutability [Top](#top)
+# Immutability
 
 Determines if an object type can be modified in-place. 
 
@@ -175,7 +294,7 @@ Mutible types
 - Dictionary
 - Sets
 
-# Arithmetric Operations [Top](#top)
+# Arithmetric Operations
 
 * Addition
 * Subtraction
@@ -185,33 +304,33 @@ Mutible types
 * Floor
 * Exponent
 
-# Assignment Operators [Top](#top)
+# Assignment Operators
 
 Standalone or combined with arithmetric operators
 
-# Bitwise Operators [Top](#top)
+# Bitwise Operators
 
-# Boolean Operators [Top](#top)
+# Boolean Operators
 
 * And
 * Or
 * Not
 
-# Comparison Operators [Top](#top)
+# Comparison Operators
 
-# Input [Top](#top)
+# Input
 
 ## Type Conversion
 
-# String Access [Top](#top)
+# String Access
 
 ## Slicing
 ## Addition
 ## Multiplication
 
-# Operator Precedence [Top](#top)
+# Operator Precedence
 
-# Flow Control / Loops [Top](#top)
+# Flow Control / Loops
 
 ## IF
 
@@ -225,7 +344,7 @@ Standalone or combined with arithmetric operators
 
 ## Pass
 
-# Range Command [Top](#top)
+# Range Command
 
 
 # Lists
@@ -288,7 +407,7 @@ Standalone or combined with arithmetric operators
 
 ### Reverse
 
-# Tuples [Top](#top)
+# Tuples
 
 ## Create
 
@@ -302,7 +421,7 @@ Standalone or combined with arithmetric operators
 
 ## Packing/Unpacking
 
-# Dictionary [Top](#top)
+# Dictionary
 
 ## Creating
 
@@ -336,7 +455,7 @@ Standalone or combined with arithmetric operators
 
 ### Items
 
-# Sets [Top](#top)
+# Sets
 
 ## Create
 
@@ -384,9 +503,9 @@ Include with range
 
 ## Membership Operators
 
-# Escape Characters [Top](#top)
+# Escape Characters
 
-# Strings [Top](#top)
+# Strings
 
 ## Functions
 
@@ -409,7 +528,7 @@ Include with range
 
 ### Split
 
-# Functions [Top](#top)
+# Functions
 
 ## Arguments
 
@@ -429,7 +548,7 @@ Include with range
 
 ## Global
 
-# Exceptions [Top](#top)
+# Exceptions
 
 ## Types
 
