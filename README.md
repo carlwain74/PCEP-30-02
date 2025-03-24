@@ -1,10 +1,11 @@
 <a id="top"></a>
 
 # Table of contents
-- [PCEP-03-02](#PCEP Intro)
-- [Python Intro](#Python Intro)
-- [Variables](#Variables)
-  - [Literals](#Literals)
+- [PCEP-03-02](#pcep-introduction
+- [Python Intro](#introduction-to-python)
+- [Keywords](#keywords)
+- [Variables](#vriables)
+  - [Literals](#literals)
 
 # PCEP Introduction
 
