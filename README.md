@@ -279,42 +279,192 @@ A full list of reserved keywords can be found [here](https://docs.python.org/3/r
 
 Built-in functionality to write strings to the console.
 
+```
+   print("Hello World")
+   
+   > Hello World
+
+   print("Hello","World")
+   
+   > Hello World
+```
+
+## Separator
+
+Default seperator is blank space. The print module allows you to override the default with another string.
+
+You can specify your own seperator using the `sep=""` argument after any positional arguments.
+
+```
+   print("Hello","World", sep="-")
+   
+   > Hello-World
+          ^
+```
+
+## End
+
+By default all print commands will end with a new line `\n`. The print module allows you to override the default with another string.
+
+You canb specify how a string is terminated provided the `end=""` argument after an positional arguments.
+
+```
+   print("Hello World", end="---")
+   print("Have a nice day")
+   
+   > Hello World---Have a nice day
+```
+
 ## Formatting
+
+There are several methods to format a print string
+
+* [Placeholders](#placeholders)
+* [F-String](
+
+### Placeholders
+
+Placeholders uses a technique where you place `{}` in all the locations where a variable will be substituted using the `.format()` method.
+
+```
+   print("Hello my name is {}. I am {} year old".format("Peter", 34))
+   
+   > Hello my name is Peter. I am 34 year old
+```
+
+Variations on this are as follows
+
+* Supply indexes to control order {0}, {1}
+
+	```
+	print("Hello my name is {0}. I am {1} year old".format("Peter", 34))
+	```
+
+* Supply names
+	```
+	print("Hello my name is {name}. I am {age} year old".format(name="Peter", age=34))
+	```
+
+
+### F-Strings
+
+F-Strings is another way to embed variables by name into a print string using the variable name.
+
+```
+   name = "Peter"
+   age = 34
+   
+	print("Hello my name is {name}. I am {age} year old")
+```
 
 # Immutability
 
 Determines if an object type can be modified in-place. 
 
-Immutible types
-
-Mutible types
+Immutable types
+- Tuples
 - Strings
 - Numbers
+
+Mutible types
+
 - Lists
 - Dictionary
 - Sets
 
 # Arithmetric Operations
 
-* Addition
-* Subtraction
-* Multiplcation
-* Division
-* Modulo
-* Floor
-* Exponent
+* Addition `+`
+* Subtraction `-`
+* Multiplcation `*`
+* Division `/`
+* Modulo `%`
+* Integer Division (Floor) `//`
+* Exponent `**`
+
+```
+a=10 ; b=4
+
+	print(a + b)		=> 14
+	print(a - b)		=> 6
+	print(a * b)		=> 40
+	print(a / b)		=> 2.5
+	print(a % b)		=> 2
+	print(a // b)		=> 2
+	print(a ** b)		=> 10,000
+```
 
 # Assignment Operators
 
-Standalone or combined with arithmetric operators
+Standalone or combined with arithmetric operators.
+	
+`a = 10`
+
+ComThey comprise of 
+
+- Addition `+=`
+- Subtraction `-=`
+- Multiplication `*=`
+- Division `/=`
+- Modulo `%=`
+- Integer/Floor Division `//=`
+- Exponent `**=`
+```
+a = 10
+
+	a += 5		=> 15
+	a -= 5		=> 10
+	a *= 2		=> 20
+	a /= 2		=> 5.0
+	a %= 3		=> 1.0
+	a //= 2	=> 5
+	a **= 2	=> 100
+```
 
 # Bitwise Operators
 
+- Left shift (Multiply by 2) `<<`
+- Right shift (Divide by 2) `>>`
+
+```
+a = 2
+
+	a << 2		=> 8
+	a >> 2		=> 1
+```
+
 # Boolean Operators
 
-* And
-* Or
-* Not
+* AND
+	* Logical AND
+	* Returns `True` if both args are `True`
+	* `True` AND `True` => `True`
+	* `True` AND `False` => `False`
+	* Integers (Returns second arg if the first arg is true)
+		* `0` AND `10` => 0
+		* `20` AND `10` => 10
+		* `False` and 10	=> False
+	* Strings (Returns second arg if the first arg is true)
+		* `"Python"` AND `""` => `""`
+		* `"Python"` AND `"Java"`	=> `"Java"`
+* OR
+	* Logical OR
+	* Returns `True` if either arg is `True`
+	* `True` OR `False` => `True`
+	* `True` OR `True` => `True`
+	* `False` OR `False` => `False`
+	* Integers (Returns second arg if the first arg is false)
+	  * `0` OR `10` => `10`
+	  * `20` OR `10` => `20`
+	  * `10` OR `100` => `10`
+   * Strings (Returns second arg if the first arg is false)
+     * `"Python"` OR `""` => `"Python"`
+     * `"Python"` OR `"Java"` => `"Python"`
+     * `""` OR `"Java"` => `"Java"`
+* X-OR
+* NOT
+
+
 
 # Comparison Operators
 
